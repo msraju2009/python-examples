@@ -1,0 +1,5 @@
+from selenium import webdriver
+driver=webdriver.Chrome(r"path\chromedriver.exe")
+driver.get("url")
+driver.get_screenshot_as_file("path/filename.png")
+driver.save_screenshot("path/filename.jpg")
