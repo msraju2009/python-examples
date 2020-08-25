@@ -1,0 +1,7 @@
+import logging
+logging.basicConfig(filename=r'C:\log_storage\sample.log', format='%(name)s - %(levelname)s - %(message)s',level=logging.DEBUG)
+logging.debug("this is debug")
+logging.info("this is info")
+logging.warning("there is warning call")
+logging.error("there is an error")
+logging.critical("this is critical")
